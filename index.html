@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>涵有闲</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        letter-spacing: 0.5px;
+      }
+      body {
+        font-family: Open Sans Condensed, sans-serif;
+        color: #333;
+        padding: 5vh 10vw;
+        display: flex;
+        flex-direction: column;
+      }
+      h1 {
+        color: #111;
+        font-size: 4.5em;
+        font-weight: 333;
+        margin-top: 0.5em;
+        margin-bottom: 0.1em;
+      }
+
+      p {
+        font-size: 1.5em;
+        font-weight: 300;
+        line-height: 1.5;
+        max-width: 28em;
+        margin: 0.6em 0;
+      }
+      a {
+        color: #1098ad;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      span {
+        color: #222;
+        font-size: 2em;
+        font-weight: 333;
+      }
+
+      /* 移动端 */
+
+      @media screen and (max-width: 768px) {
+        body {
+          padding: 5vh 5vw; /* 减小内边距 */
+        }
+        h1 {
+          font-size: 3em; /* 减小标题字体大小 */
+        }
+        p {
+          font-size: 1em; /* 减小段落字体大小 */
+        }
+        span {
+          font-size: 1.5em; /* 调整 span 字体大小 */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>你好</h1>
+    <p>我是 <span>涵有闲</span></p>
+    <p>一名践行终身成长的不完美主义者</p>
+    <p>
+      暂时还没有工作，懂一点编程技能，偏向但不限于前端，喜欢做一些小而美的东西
+      <a href="https://hyx.ink/about" target="_blank">了解更多</a>
+    </p>
+    <p>
+      这是我的 <a href="https://hyx.ink" target="_blank">blog</a>，可以通过
+      <a href="mailto:im.zihanla@gmail.com">im.zihanla@gmail.com</a> 邮箱联系我
+    </p>
+  </body>
+</html>
